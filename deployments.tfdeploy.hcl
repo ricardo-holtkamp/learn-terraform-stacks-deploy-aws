@@ -19,7 +19,7 @@ deployment "development" {
 
 deployment "production" {
   inputs = {
-    regions        = ["us-east-1", "us-west-1"]
+    regions        = ["us-east-1", "eu-central-1"]
     role_arn       = "arn:aws:iam::718959508365:role/stacks-Learn-Stacks-Learn-Stacks"
     identity_token = identity_token.aws.jwt
     default_tags = {
