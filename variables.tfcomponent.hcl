@@ -1,5 +1,6 @@
 # Copyright (c) HashiCorp, Inc.
 # SPDX-License-Identifier: MPL-2.0
+# test
 
 variable "regions" {
   description = "AWS regions to deploy to."
