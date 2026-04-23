@@ -15,7 +15,6 @@ deployment "development" {
       Environment = "dev"
     }
   }
-  # destroy = true
 }
 
 deployment "production" {
