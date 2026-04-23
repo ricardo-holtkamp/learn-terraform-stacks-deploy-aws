@@ -1,6 +1,6 @@
 # Copyright (c) HashiCorp, Inc.
 # SPDX-License-Identifier: MPL-2.0
-
+# test
 component "vpc" {
   source   = "./vpc"
   for_each = var.regions
