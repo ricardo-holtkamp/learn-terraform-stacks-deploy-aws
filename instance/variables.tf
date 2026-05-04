@@ -24,6 +24,6 @@ variable "instances_per_subnet" {
 variable "instance_type" {
   description = "Instance type for all instances."
   type        = string
-  default     = "t2.micro"
+  default     = "t3.micro"
 }
 
