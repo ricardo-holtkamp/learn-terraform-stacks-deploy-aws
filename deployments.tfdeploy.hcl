@@ -3,6 +3,7 @@
 identity_token "aws" {
   audience = ["aws.workload.identity"]
 }
+#test
 
 deployment "development" {
   inputs = {
@@ -14,7 +15,6 @@ deployment "development" {
       Environment = "dev"
     }
   }
-  # destroy = true
 }
 
 deployment "production" {
@@ -28,6 +28,3 @@ deployment "production" {
     }
   }
 }
-
-
-
